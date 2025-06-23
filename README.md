@@ -5,6 +5,7 @@ Retinal image classification plays a pivotal role in the early diagnosis and tre
 However, traditional machine learning models struggle to adapt when new data becomes available. Retraining these models frequently leads to catastrophic forgetting, where previously learned knowledge is lost. To overcome this, our project implements a robust continual learning framework that incrementally learns from new data while retaining previously acquired knowledge.
 
 🎯 Objective
+
 Develop an intelligent retinal image classification system capable of learning continuously from evolving data.
 
 Minimize the risk of catastrophic forgetting using advanced continual learning algorithms.
@@ -14,6 +15,7 @@ Maintain high classification accuracy as new retinal images and disease patterns
 Offer a practical solution for real-world, dynamic medical imaging scenarios.
 
 🧩 Key Features
+
 ✨ Continual Learning:
 Employs techniques such as Experience Replay and regularization-based methods to maintain performance on old tasks while learning new ones.
 
