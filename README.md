@@ -1,15 +1,30 @@
-# Retinal Image Classification Using Continual Learning
+# 🧿 Retinal Image Classification Using Continual Learning
+📖 Introduction
+Retinal image classification plays a pivotal role in the early diagnosis and treatment of sight-threatening diseases such as diabetic retinopathy, age-related macular degeneration, and glaucoma. Accurate detection at an early stage can prevent vision loss and significantly improve patient outcomes.
 
-📌 Overview
-Retinal image classification is crucial for the early detection and management of various ocular diseases, including diabetic retinopathy, age-related macular degeneration, and glaucoma. However, traditional machine learning models struggle to adapt to evolving datasets, often requiring complete retraining, which leads to catastrophic forgetting of previously learned information.
+However, traditional machine learning models struggle to adapt when new data becomes available. Retraining these models frequently leads to catastrophic forgetting, where previously learned knowledge is lost. To overcome this, our project implements a robust continual learning framework that incrementally learns from new data while retaining previously acquired knowledge.
 
-To address this, we propose a novel approach that leverages continual learning techniques. Our framework enables continuous integration of new retinal image data while retaining prior knowledge, ensuring consistent and reliable classification performance over time.
+🎯 Objective
+Develop an intelligent retinal image classification system capable of learning continuously from evolving data.
 
-🚀 Key Features
-✅ Continual Learning Framework: Prevents catastrophic forgetting by preserving previously acquired knowledge.
+Minimize the risk of catastrophic forgetting using advanced continual learning algorithms.
 
-✅ Dynamic Adaptability: Seamlessly incorporates new retinal images without retraining from scratch.
+Maintain high classification accuracy as new retinal images and disease patterns emerge.
 
-✅ Improved Diagnostic Accuracy: Achieves higher classification accuracy than conventional methods.
+Offer a practical solution for real-world, dynamic medical imaging scenarios.
 
-✅ Extensive Validation: Tested on benchmark retinal image datasets with robust experimental results.
+🧩 Key Features
+✨ Continual Learning:
+Employs techniques such as Experience Replay and regularization-based methods to maintain performance on old tasks while learning new ones.
+
+🔄 Incremental Updates:
+Enables the model to adapt to new patient data without full retraining.
+
+📊 Benchmark Validation:
+Validated on well-known retinal image datasets to ensure reliability and reproducibility.
+
+💡 Modular Design:
+Clean, modular code structure to experiment with various continual learning strategies.
+
+📈 Performance Tracking:
+Logs training metrics, loss curves, and accuracy for each task.
